@@ -11,6 +11,9 @@ Windows 10 x64 only. Tested on version 1909.
 
 The Volume OSD will only be hidden while the program is running; it is not permanent. In the off-chance that closing the program does not make the Volume OSD return, restart your computer or restart the explorer.exe process.
 
+## Antivirus
+Because this program hooks into a process, antivirus programs may get triggered. In such a situation, this program will need to be whitelisted.
+
 ## Compiling
 Binary file and DLL were compiled with gcc as follows:
 
